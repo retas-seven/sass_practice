@@ -1,7 +1,16 @@
 @charset 'utf-8';
 
+// ===========================
+// Base
+// ===========================
 @import "./base/variables";
 @import "./base/reset";
+
+// Common
+//----------------------------
+// ヘッダー
 @import "./components/common/header";
 
+// メニュー
+@import "./components/common/menu";
 

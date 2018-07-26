@@ -573,3 +573,15 @@ a:hover {
   flex: 3 1 auto;
   font-size: 1.6rem;
 }
+
+.Menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Menu__item {
+  display: block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}

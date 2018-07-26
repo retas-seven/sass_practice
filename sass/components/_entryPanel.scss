@@ -1,0 +1,27 @@
+@charset 'utf-8';
+
+.EntryPanel {
+    display: flex;
+    align-items: center;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-self: stretch;
+        flex: 1 1 55%;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    &__head {
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    &__foot {
+        margin-top: 10px;
+        text-align: right;
+    }
+    &__body {
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+}

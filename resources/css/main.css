@@ -550,11 +550,21 @@ li {
 
 a {
   color: #474747;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
   color: #878378;
+}
+
+.button {
+  display: inline-block;
+  padding: 7px 12px;
+  background: #252525;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
 }
 
 .Header {
@@ -583,5 +593,33 @@ a:hover {
   display: block;
   padding: 10px 15px;
   text-transform: uppercase;
-  text-decoration: none;
+}
+
+.EntryPanel {
+  display: flex;
+  align-items: center;
+}
+
+.EntryPanel__main {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  flex: 1 1 55%;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.EntryPanel__head {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.EntryPanel__foot {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.EntryPanel__body {
+  margin-top: 10px;
+  font-size: 1.4rem;
 }

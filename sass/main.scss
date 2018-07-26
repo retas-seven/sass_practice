@@ -6,6 +6,15 @@
 @import "./base/variables";
 @import "./base/reset";
 
+
+// ===========================
+// Components
+// ===========================
+// Parts
+//----------------------------
+// ボタン
+@import "./components/parts/buttons";
+
 // Common
 //----------------------------
 // ヘッダー
@@ -14,3 +23,7 @@
 // メニュー
 @import "./components/common/menu";
 
+// Others
+//----------------------------
+// ブログ抜粋
+@import "./components/entryPanel";

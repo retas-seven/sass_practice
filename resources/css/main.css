@@ -557,13 +557,37 @@ a:hover {
   color: #878378;
 }
 
+.l-column {
+  flex: 0 1 1180px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.l-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.l-halfColumn {
+  flex: 1 0 0px;
+  max-width: 570px;
+  margin-right: 40px;
+}
+
+.l-halfColumn:nth-child(even) {
+  margin-right: 0;
+}
+
 .button {
   display: inline-block;
   padding: 7px 12px;
   background: #252525;
-  color: #fff;
+  color: white;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1;
 }
 
@@ -571,7 +595,6 @@ a:hover {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: antiquewhite;
 }
 
 .Header__head {
@@ -607,6 +630,16 @@ a:hover {
   flex: 1 1 55%;
   flex-direction: column;
   padding: 20px 0;
+}
+
+.EntryPanel__sub {
+  flex: 1 1 45%;
+  margin-right: 20px;
+}
+
+.EntryPanel__thumb {
+  width: 100%;
+  height: auto;
 }
 
 .EntryPanel__head {

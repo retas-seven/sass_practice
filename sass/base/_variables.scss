@@ -1,10 +1,18 @@
 @charset 'utf-8';
 
-$color-white: #fff;
+$color-white: rgb(255, 255, 255);
 
-$color-base: #fbf7f3;
-$color-main-text: #474747;
-$color-link: #878378;
+$color-base: rgb(251, 247, 243);
+$color-main-text: rgb(71, 71, 71);
+$color-link: rgb(135, 131, 120);
 
-$color-reverse-line: #fff;
-$color-reverse-fill: #252525;
+$color-reverse-line: rgb(255, 255, 255);
+$color-reverse-fill: rgb(37, 37, 37);
+
+// sizes
+$base-content-width: 1180px;
+$space-unit: 20px;
+$sp-space-unit: 15px;
+$column-space: $space-unit*2;
+
+

@@ -542,6 +542,8 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -655,4 +657,54 @@ a:hover {
 .EntryPanel__body {
   margin-top: 10px;
   font-size: 1.4rem;
+}
+
+.ImageSlide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ImageSlide__main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ImageSlide__item {
+  flex: 0 0 80%;
+}
+
+.ImageSlide__image {
+  width: 100%;
+  height: auto;
+}
+
+.ImageSlide__sub {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.ImageSlide__dot {
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #252525;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.ImageSlide__dot:last-child {
+  margin-right: 0;
+}
+
+.ImageSlide__dot.isActive {
+  background: #252525;
 }

@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+// sanitize.cssを_sanitize.scssにリネームして使用
 @import "./lib/sanitize";
 
 :root, html, body {
@@ -16,6 +17,9 @@ body {
 
 * {
     box-sizing: border-box;
+    // _sanitize.scssでmargin、paddingを0に設定していなかったため、ここで設定
+    margin: 0;
+    padding: 0;
 }
 
 li {

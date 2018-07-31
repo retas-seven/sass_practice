@@ -593,6 +593,34 @@ a:hover {
   line-height: 1;
 }
 
+.sectionLabel {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #474747;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.sectionLabel::before, .sectionLabel::after {
+  display: block;
+  flex: 1 0 10%;
+  height: 0;
+  border-bottom: 1px solid #474747;
+  content: '';
+}
+
+.sectionLabel::before {
+  margin-right: 22px;
+}
+
+.sectionLabel::after {
+  margin-left: 22px;
+}
+
 .Header {
   display: flex;
   justify-content: flex-start;

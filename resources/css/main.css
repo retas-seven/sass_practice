@@ -583,6 +583,13 @@ a:hover {
   margin-right: 0;
 }
 
+.l-halfTile {
+  display: flex;
+  flex: 1 1 50%;
+  margin: 0;
+  padding: 0;
+}
+
 .button {
   display: inline-block;
   padding: 7px 12px;
@@ -735,4 +742,38 @@ a:hover {
 
 .ImageSlide__dot.isActive {
   background: #252525;
+}
+
+.OverlayPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10% 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.OverlayPanel:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.OverlayPanel__head {
+  margin: 0 10%;
+  padding: 24px 36px;
+  border: 2px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 24px;
+}
+
+.OverlayPanel:hover .OverlayPanel__head {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.OverlayPanel__body {
+  margin: 16px auto;
 }

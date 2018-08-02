@@ -25,3 +25,11 @@
       margin-right: 0;
     }
 }
+
+// 100%画面幅に対して1/2の幅にする
+.l-halfTile {
+    display: flex;
+    flex: 1 1 50%;
+    margin: 0;
+    padding: 0;
+}

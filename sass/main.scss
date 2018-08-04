@@ -25,6 +25,8 @@
 @import "./components/common/header";
 // メニュー
 @import "./components/common/menu";
+// セクション分け
+@import "./components/common/section";
 
 // Others
 //----------------------------
@@ -35,3 +37,7 @@
 // 写真背景パネル
 @import "./components/overlayPanel";
 
+// ===========================
+// Pages
+// ===========================
+@import "./pages/index";

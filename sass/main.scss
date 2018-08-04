@@ -6,6 +6,8 @@
 @import "./base/variables";
 @import "./base/reset";
 
+// font-awesome
+@import "https://use.fontawesome.com/releases/v5.0.6/css/all.css";
 
 // ===========================
 // Components
@@ -36,6 +38,8 @@
 @import "./components/imageSlide";
 // 写真背景パネル
 @import "./components/overlayPanel";
+// アイコンつき説明パネル
+@import "./components/iconPanel";
 
 // ===========================
 // Pages

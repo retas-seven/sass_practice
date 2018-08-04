@@ -26,6 +26,15 @@
     }
 }
 
+.l-quaterColumn {
+    flex: 1 0 0px;
+    max-width: ($base-content-width - $column-space * 3) / 4;
+    margin-right: $column-space;
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
 // 100%画面幅に対して1/2の幅にする
 .l-halfTile {
     display: flex;
@@ -33,3 +42,5 @@
     margin: 0;
     padding: 0;
 }
+
+

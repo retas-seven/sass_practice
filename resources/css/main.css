@@ -5,6 +5,7 @@
  * 1. Remove repeating backgrounds in all browsers (opinionated).
  * 2. Add border box sizing in all browsers (opinionated).
  */
+@import "https://use.fontawesome.com/releases/v5.0.6/css/all.css";
 *,
 ::before,
 ::after {
@@ -587,6 +588,16 @@ a:hover {
   margin-right: 0;
 }
 
+.l-quaterColumn {
+  flex: 1 0 0px;
+  max-width: 265px;
+  margin-right: 40px;
+}
+
+.l-quaterColumn:nth-child(4n) {
+  margin-right: 0;
+}
+
 .l-halfTile {
   display: flex;
   flex: 1 1 50%;
@@ -793,6 +804,34 @@ a:hover {
 
 .OverlayPanel__body {
   margin: 16px auto;
+}
+
+.IconPanel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.IconPanel__head {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.IconPanel__body {
+  padding: 30px;
+  max-width: 100%;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.IconPanel__icon {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 26px;
+  color: #878378;
 }
 
 .IndexPage__foodMenu, .IndexPage__drinkMenu {

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css */
 /* Document
  * ========================================================================== */
@@ -641,6 +642,26 @@ a:hover {
 
 .sectionLabel::after {
   margin-left: 22px;
+}
+
+.NewsList {
+  display: table;
+  border-spacing: 0 10px;
+  border-collapse: separate;
+}
+
+.NewsList__item　 {
+  display: table-row;
+}
+
+.NewsList__head {
+  display: table-cell;
+  padding-right: 40px;
+  width: 140px;
+}
+
+.NewsList__body {
+  display: table-cell;
 }
 
 .Header {

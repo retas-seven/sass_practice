@@ -704,6 +704,16 @@ a:hover {
   margin-bottom: 0;
 }
 
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px auto 0;
+  padding: 20px 0;
+  background-color: #252525;
+  color: #878378;
+}
+
 .EntryPanel {
   display: flex;
   align-items: center;

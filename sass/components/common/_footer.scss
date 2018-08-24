@@ -13,5 +13,12 @@
     padding: $space-unit 0;
     background-color: $color-black;
     color: $color-link;
+
+    a {
+        color: $color-link;
+        &:hover {
+          color: $color-white;
+        }        
+    }
 }
 

@@ -9,4 +9,9 @@
         padding: 10px 15px;
         text-transform: uppercase;
     }
+
+    // フッターのメニュー
+    &--sub {
+        flex-direction: column;
+    }
 }

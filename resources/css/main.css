@@ -692,6 +692,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.Menu--sub {
+  flex-direction: column;
+}
+
 .Section {
   margin-bottom: 40px;
 }
@@ -712,6 +716,14 @@ a:hover {
   padding: 20px 0;
   background-color: #252525;
   color: #878378;
+}
+
+.Footer a {
+  color: #878378;
+}
+
+.Footer a:hover {
+  color: white;
 }
 
 .EntryPanel {

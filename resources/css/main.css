@@ -718,6 +718,19 @@ a:hover {
   color: #878378;
 }
 
+.Footer__head {
+  flex: 2 1 50%;
+}
+
+.Footer__head, .Footer__body {
+  adding-right: 20px;
+}
+
+.Footer__body, .Footer__foot {
+  align-self: flex-start;
+  flex: 1 1 25%;
+}
+
 .Footer a {
   color: #878378;
 }

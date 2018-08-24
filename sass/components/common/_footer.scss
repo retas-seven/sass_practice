@@ -14,6 +14,20 @@
     background-color: $color-black;
     color: $color-link;
 
+    // フッターの横幅比率を指定
+    &__head {
+        flex: 2 1 50%;
+    }
+    &__head,
+    &__body {
+        adding-right: $space-unit;
+    }
+    &__body,
+    &__foot {
+        align-self: flex-start;
+        flex: 1 1 25%;
+    }
+
     a {
         color: $color-link;
         &:hover {

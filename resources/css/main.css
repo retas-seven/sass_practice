@@ -723,7 +723,7 @@ a:hover {
 }
 
 .Footer__head, .Footer__body {
-  adding-right: 20px;
+  padding-right: 20px;
 }
 
 .Footer__body, .Footer__foot {
@@ -737,6 +737,30 @@ a:hover {
 
 .Footer a:hover {
   color: white;
+}
+
+.SNS {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.SNS__item {
+  margin-right: 20px;
+}
+
+.SNS__item:last-child {
+  margin-right: 0;
+}
+
+.SNS__text {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
 }
 
 .EntryPanel {

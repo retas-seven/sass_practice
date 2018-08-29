@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+// フォント切替mixin(タイトルフォント用)
+@mixin title-font() {
+    font-family: $font-sub;
+    font-weight: 400;
+}
+
+// フォント切替mixin(メニュー用)
+@mixin menu-font() {
+    font-family: $font-sub;
+    font-weight: 300;
+}

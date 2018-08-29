@@ -3,6 +3,7 @@
 .Menu {
     display: flex;
     justify-content: space-around;
+    @include menu-font;
 
     &__item {
         display: block;

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 /*! sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css */
 /* Document
  * ========================================================================== */
@@ -626,6 +627,8 @@ a:hover {
   text-transform: uppercase;
   font-size: 22px;
   line-height: 1;
+  font-family: "Lato";
+  font-weight: 300;
 }
 
 .sectionLabel::before, .sectionLabel::after {
@@ -642,6 +645,17 @@ a:hover {
 
 .sectionLabel::after {
   margin-left: 22px;
+}
+
+.logo {
+  display: inline-block;
+  padding: 10px 0;
+  color: #474747;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 26px;
+  font-family: "Lato";
+  font-weight: 300;
 }
 
 .NewsList {
@@ -684,6 +698,8 @@ a:hover {
 .Menu {
   display: flex;
   justify-content: space-around;
+  font-family: "Lato";
+  font-weight: 300;
 }
 
 .Menu__item {

@@ -32,8 +32,11 @@
         top: -40px;
         display: flex;
         justify-content: center;
+        @include mq-sp {
+            top: -20px;
+        }
     }
-    // インジケーターの○ひとつぶん
+    // インジケーターの"○"１つ分
     &__dot {
         display: block;
         overflow: hidden;
@@ -50,6 +53,11 @@
         }
         &.isActive {
             background: $color-black;
+        }
+        @include mq-sp {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
         }
     }
 }

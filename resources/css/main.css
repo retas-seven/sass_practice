@@ -852,6 +852,12 @@ a:hover {
   justify-content: center;
 }
 
+@media only screen and (max-width: 640px) {
+  .ImageSlide__sub {
+    top: -20px;
+  }
+}
+
 .ImageSlide__dot {
   display: block;
   overflow: hidden;
@@ -871,6 +877,14 @@ a:hover {
 
 .ImageSlide__dot.isActive {
   background: #252525;
+}
+
+@media only screen and (max-width: 640px) {
+  .ImageSlide__dot {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
 }
 
 .OverlayPanel {

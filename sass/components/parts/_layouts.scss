@@ -22,7 +22,13 @@
     max-width: ($base-content-width - $column-space)/2;
     margin-right: $column-space;
     &:nth-child(even) {
-      margin-right: 0;
+        margin-right: 0;
+    }
+    @include mq-sp {
+        display: block;
+        flex: 1 1 100%;
+        max-width: none;
+        margin-right: 0;
     }
 }
 

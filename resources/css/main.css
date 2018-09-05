@@ -590,6 +590,15 @@ a:hover {
   margin-right: 0;
 }
 
+@media only screen and (max-width: 640px) {
+  .l-halfColumn {
+    display: block;
+    flex: 1 1 100%;
+    max-width: none;
+    margin-right: 0;
+  }
+}
+
 .l-quaterColumn {
   flex: 1 0 0px;
   max-width: 265px;

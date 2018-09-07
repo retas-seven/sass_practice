@@ -623,6 +623,12 @@ a:hover {
   padding: 0;
 }
 
+@media only screen and (max-width: 640px) {
+  .l-halfTile {
+    flex-basis: 100%;
+  }
+}
+
 .l-fitImg {
   max-width: 100%;
   max-height: 100%;
@@ -941,6 +947,12 @@ a:hover {
 
 .OverlayPanel__body {
   margin: 16px auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .OverlayPanel__body {
+    display: none;
+  }
 }
 
 .IconPanel {

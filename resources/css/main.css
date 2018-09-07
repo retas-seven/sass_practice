@@ -616,6 +616,14 @@ a:hover {
   margin-right: 0;
 }
 
+@media only screen and (max-width: 640px) {
+  .l-quaterColumn {
+    flex: 1 1 100%;
+    max-width: none;
+    margin: 0;
+  }
+}
+
 .l-halfTile {
   display: flex;
   flex: 1 1 50%;
@@ -964,10 +972,26 @@ a:hover {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 640px) {
+  .IconPanel {
+    display: block;
+    padding: 20px 0;
+  }
+}
+
 .IconPanel__head {
   padding: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .IconPanel__head {
+    text-align: left;
+    margin-left: 52px;
+    padding: 0 0 15px;
+    font-size: 1.6rem;
+  }
 }
 
 .IconPanel__body {
@@ -978,11 +1002,30 @@ a:hover {
   text-justify: inter-ideograph;
 }
 
+@media only screen and (max-width: 640px) {
+  .IconPanel__body {
+    margin-left: 52px;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+
 .IconPanel__icon {
   margin-bottom: 20px;
   padding: 15px;
-  font-size: 26px;
+  font-size: 2.6rem;
   color: #878378;
+}
+
+@media only screen and (max-width: 640px) {
+  .IconPanel__icon {
+    float: left;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 52px;
+    text-align: center;
+    font-size: 1.9rem;
+  }
 }
 
 .IndexPage__foodMenu, .IndexPage__drinkMenu {

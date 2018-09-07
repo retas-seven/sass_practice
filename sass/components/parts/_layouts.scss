@@ -43,6 +43,11 @@
     &:nth-child(4n) {
         margin-right: 0;
     }
+    @include mq-sp {
+        flex: 1 1 100%;
+        max-width: none;
+        margin: 0;
+    }
 }
 
 // 100%画面幅に対して1/2の幅にする

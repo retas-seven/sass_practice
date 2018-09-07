@@ -11,11 +11,20 @@
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-
+    @include mq-sp {
+        display: block;
+        padding: $space-unit 0;
+    }
     &__head {
         padding: $space-unit;
         text-align: center;
-        font-size: 18px;
+        font-size: 1.8rem;
+        @include mq-sp {
+            text-align: left;
+            margin-left: 52px;
+            padding: 0 0 15px;
+            font-size: 1.6rem;
+        }
     }
     &__body {
         padding: $space-unit * 1.5;
@@ -25,13 +34,26 @@
         //行端揃え
         text-align: justify;
         text-justify: inter-ideograph;
-    }
 
+        @include mq-sp {
+            margin-left: 52px;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+    }
     &__icon {
         margin-bottom: $space-unit;
         padding: $sp-space-unit;
-        font-size: 26px;
+        font-size: 2.6rem;
         color: $color-link; //$color-grayが正しい
+        @include mq-sp {
+            float: left;
+            margin-bottom: 0;
+            padding-left: 0;
+            width: 52px;
+            text-align: center;
+            font-size: 1.9rem;
+        }
     }
 }
 

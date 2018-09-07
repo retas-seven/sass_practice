@@ -6,6 +6,10 @@
     max-width: $base-content-width;
     margin: 0 auto;
     padding: 0 $space-unit;
+    @include mq-sp {
+        padding: 0 $sp-space-unit*2;
+        width: auto;
+    }
 }
 
 // 横並びラッパー

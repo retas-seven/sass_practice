@@ -573,6 +573,13 @@ a:hover {
   padding: 0 20px;
 }
 
+@media only screen and (max-width: 640px) {
+  .l-column {
+    padding: 0 30px;
+    width: auto;
+  }
+}
+
 .l-row {
   display: flex;
   justify-content: space-between;
@@ -830,6 +837,12 @@ a:hover {
 .EntryPanel__body {
   margin-top: 10px;
   font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .EntryPanel__body {
+    font-size: 1.2rem;
+  }
 }
 
 .ImageSlide {

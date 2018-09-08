@@ -10,14 +10,19 @@
     display: table;
     border-spacing: 0 $space-unit/2;
     border-collapse: separate;
-
-    &__item　{
+    @include mq-sp {
+        font-size: 1.22rem;
+    }
+    &__item {
         display: table-row;
     }
     &__head {
         display: table-cell;
         padding-right: $column-space;
         width: 140px;
+        @include mq-sp {
+            width: 110px;
+        }
     }
     &__body {
         display: table-cell;

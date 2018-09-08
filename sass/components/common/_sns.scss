@@ -3,7 +3,10 @@
 .SNS {
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 2.2rem;
+    @include mq-sp {
+        font-size: 1.6rem;
+    }
     &__item {
         margin-right: 20px;
         &:last-child {

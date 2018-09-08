@@ -815,7 +815,13 @@ a:hover {
 .SNS {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .SNS {
+    font-size: 1.6rem;
+  }
 }
 
 .SNS__item {

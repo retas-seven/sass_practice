@@ -741,8 +741,23 @@ a:hover {
   font-size: 1.6rem;
 }
 
+@media only screen and (min-width: 641px) {
+  .Header__button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .Header__button {
+    display: block;
+    color: #474747;
+    font-size: 2.2rem;
+  }
+}
+
 .Menu {
   display: flex;
+  justify-content: space-around;
   font-family: "Lato";
   font-weight: 300;
 }

@@ -16,3 +16,27 @@
         flex-direction: column;
     }
 }
+
+.SpMenu {
+    @include mq-sp {
+        position: fixed;
+        top: $sp-space-unit;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        .isOpened & {
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+
+    &__wrapper {
+        left: 0;
+        width: 100%;
+        &.isOpened {
+            position: fixed;
+            left: 200px;
+        }
+    }
+}

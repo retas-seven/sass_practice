@@ -772,6 +772,31 @@ a:hover {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 640px) {
+  .SpMenu {
+    position: fixed;
+    top: 15px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+  .isOpened .SpMenu {
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+.SpMenu__wrapper {
+  left: 0;
+  width: 100%;
+}
+
+.SpMenu__wrapper.isOpened {
+  position: fixed;
+  left: 200px;
+}
+
 .Section {
   margin-bottom: 40px;
 }

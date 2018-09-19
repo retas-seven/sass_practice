@@ -4,7 +4,9 @@
     display: flex;
     justify-content: space-around;
     @include menu-font;
-
+    @include mq-sp {
+        flex-direction: column;
+    }
     &__item {
         display: block;
         padding: 10px 15px;
@@ -25,6 +27,7 @@
         left: 0;
         z-index: -1;
         opacity: 0;
+        transition: opacity 0s .3s ease;
         .isOpened & {
             opacity: 1;
             z-index: 1;

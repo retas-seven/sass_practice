@@ -762,6 +762,12 @@ a:hover {
   font-weight: 300;
 }
 
+@media only screen and (max-width: 640px) {
+  .Menu {
+    flex-direction: column;
+  }
+}
+
 .Menu__item {
   display: block;
   padding: 10px 15px;
@@ -780,6 +786,7 @@ a:hover {
     left: 0;
     z-index: -1;
     opacity: 0;
+    transition: opacity 0s .3s ease;
   }
   .isOpened .SpMenu {
     opacity: 1;

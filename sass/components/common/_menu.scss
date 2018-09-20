@@ -30,16 +30,18 @@
         transition: opacity 0s .3s ease;
         .isOpened & {
             opacity: 1;
-            z-index: 1;
+            //z-index: 1;
+            transition: opacity 0s .0s ease;
         }
     }
 
     &__wrapper {
         left: 0;
         width: 100%;
+        transition: left 0.3s .0s ease;
         &.isOpened {
             position: fixed;
-            left: 200px;
+            left: $sp-menu-width;
             z-index: 1;
             box-shadow: 0 1px 10px rgba(black, .3);
         }
@@ -54,9 +56,10 @@
             top: 0;
             right: 0;
             bottom: 0;
-            left: 200px;
+            left: $sp-menu-width;
             z-index: 2;
             display: block;
+            //background-color: $color-overlay;
         }
     }
 }

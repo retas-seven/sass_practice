@@ -13,6 +13,8 @@ $color-reverse-fill: rgb(37, 37, 37);
 
 $color-main-text: rgb(71, 71, 71);
 
+//$color-overlay: rgba(100, 100, 100, 0.5);
+
 // sizes
 $base-content-width: 1180px;
 $space-unit: 20px;
@@ -28,3 +30,6 @@ $font-sub: 'Lato';
 // break points
 $sp-max-width: 640px; 
 $pc-min-width: 641px; 
+
+// mobile menu width
+$sp-menu-width: 200px;

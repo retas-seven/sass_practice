@@ -790,13 +790,14 @@ a:hover {
   }
   .isOpened .SpMenu {
     opacity: 1;
-    z-index: 1;
+    transition: opacity 0s .0s ease;
   }
 }
 
 .SpMenu__wrapper {
   left: 0;
   width: 100%;
+  transition: left 0.3s .0s ease;
 }
 
 .SpMenu__wrapper.isOpened {

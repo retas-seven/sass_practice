@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEST HTML - Canpaign</title>
+    <link rel="stylesheet" href="./resources/css/main.css">
+</head>
+    <body>
+        <div id="wrapper" class="SpMenu__wrapper">
+            <div id="overlay" class="SpMenu__overlay"></div>
+            <!-- ヘッダ -->
+            <header class="Header l-column">
+                <div id="menu-button" class="Header__button"><i class="fas fa-bars"></i></div>
+                <div class="Header__head">
+                    <h1 class="logo">Site Name</h1>
+                </div>
+                <nav class="Header__body SpMenu">
+                    <ul class="Menu">
+                        <li><a class="Menu__item" href="#">Services</a></li>
+                        <li><a class="Menu__item" href="#">Work</a></li>
+                        <li><a class="Menu__item" href="#">About us</a></li>
+                        <li><a class="Menu__item" href="#">Blog</a></li>
+                        <li><a class="Menu__item" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- カルーセル -->
+            <div class="ImageSlide Section">
+                <ul id="Slide" class="ImageSlide__main">
+                    <li class="ImageSlide__item js-slide-item">
+                        <a href="#"><img class="ImageSlide__image" src="./resources/images/top/slide1.jpg" alt="about our tea" width="1180" height="490"></a>
+                    </li>
+                    <li class="ImageSlide__item js-slide-item">
+                        <a href="#"><img class="ImageSlide__image" src="./resources/images/top/slide2.jpg" alt="about our coffee" width="1180" height="490"></a>
+                    </li>
+                    <li class="ImageSlide__item js-slide-item">
+                        <a href="#"><img class="ImageSlide__image" src="./resources/images/top/slide3.jpg" alt="about our foods" width="1180" height="490"></a>
+                    </li>
+                </ul>
+                <div class="ImageSlide__sub">
+                    <span class="ImageSlide__dot js-slide-point">image1</span>
+                    <span class="ImageSlide__dot js-slide-point isActive">image2</span>
+                    <span class="ImageSlide__dot js-slide-point">image3</span>
+                </div>
+            </div>
+
+            
+
+            <!-- フッタ -->
+            <footer class="Footer">
+                <div class="l-row l-column">
+                    <div class="Footer__head">
+                        <a href="./" class="logo">Site Name</a>
+                        <ul class="Menu Menu--sub">
+                            <li><a class="Menu__item" href="#">Services</a></li>
+                            <li><a class="Menu__item" href="#">Work</a></li>
+                            <li><a class="Menu__item" href="#">About us</a></li>
+                            <li><a class="Menu__item" href="#">Blog</a></li>
+                            <li><a class="Menu__item" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="Footer__body">
+                        <p>Copyright information goes down here.</p>
+                        <p><a href="#">Legal Notice</a></p>
+                        <p><a href="#">Privacy policy</a></p>
+                    </div>
+                    <ul class="Footer__foot SNS">
+                        <li class="SNS__item"><a class="fab fa-facebook" href="#"><span class="SNS__text">Facebook</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-youtube" href="#"><span class="SNS__text">Youtube</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-twitter-square" href="#"><span class="SNS__text">Twitter</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-linkedin" href="#"><span class="SNS__text">LinkedIn</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-flickr" href="#"><span class="SNS__text">Flickr</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-instagram" href="#"><span class="SNS__text">Instagram</span></a></li>
+                        <li class="SNS__item"><a class="fab fa-yelp" href="#"><span class="SNS__text">Yelp</span></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+
+        <script src="./resources/js/main.min.js"></script>
+        <script>
+            imageSlide('Slide', 2);
+        </script>
+    </body>
+</html>
+

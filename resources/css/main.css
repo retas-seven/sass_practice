@@ -605,6 +605,26 @@ a:hover {
   }
 }
 
+.l-tripartitionColumn {
+  flex: 1 0 0px;
+  max-width: 384.44444px;
+  margin-right: 26.66667px;
+  width: 313.33333px;
+}
+
+@media only screen and (max-width: 640px) {
+  .l-tripartitionColumn {
+    display: block;
+    flex: 1 1 100%;
+    max-width: none;
+    margin-right: 0;
+  }
+}
+
+.l-tripartitionColumn:last-child {
+  margin-right: 0;
+}
+
 .l-quaterColumn {
   flex: 1 0 0px;
   max-width: 265px;
@@ -926,6 +946,10 @@ a:hover {
   margin-right: 20px;
 }
 
+.EntryPanel--vertical .EntryPanel__sub {
+  margin-right: 0;
+}
+
 .EntryPanel__thumb {
   width: 100%;
   height: auto;
@@ -939,6 +963,10 @@ a:hover {
 .EntryPanel__foot {
   margin-top: 10px;
   text-align: right;
+}
+
+.EntryPanel--vertical {
+  display: block;
 }
 
 .EntryPanel__body {

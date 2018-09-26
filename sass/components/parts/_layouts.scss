@@ -36,6 +36,23 @@
     }
 }
 
+// メインのコンテンツ幅に対して1/3の幅にする
+.l-tripartitionColumn {
+    flex: 1 0 0px;
+    max-width: ($base-content-width - $column-space*(2/3))/3;
+    margin-right: $column-space*2/3;
+    width: ($base-content-width - $column-space *6)/3;
+    @include mq-sp {
+        display: block;
+        flex: 1 1 100%;
+        max-width: none;
+        margin-right: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
 .l-quaterColumn {
     flex: 1 0 0px;
     max-width: ($base-content-width - $column-space * 3) / 4;

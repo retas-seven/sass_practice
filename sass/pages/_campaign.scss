@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+// =====================
+// キャンペーンページ固有のスタイル
+// =====================
+.Campaign {
+    &__sweets {
+        display: flex;
+        background-image: url('#{$image-path}/campaign/sweets.jpg');
+    }
+}
+
+
+
+
+

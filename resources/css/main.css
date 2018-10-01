@@ -1163,6 +1163,11 @@ a:hover {
   background-image: url("../../resources/images/top/menu_food.jpg");
 }
 
+.Campaign__sweets {
+  display: flex;
+  background-image: url("../../resources/images/campaign/sweets.jpg");
+}
+
 .u-mt60px {
   margin-top: 60px;
 }

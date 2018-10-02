@@ -1164,8 +1164,59 @@ a:hover {
 }
 
 .Campaign__sweets {
+  display: block;
+  padding: 10% 20px;
+  background-image: url("../../resources/images/campaign/sweets.jpg"), linear-gradient(to right, #e4e8ea 0%, #e4e8ea 47%, #f6f8f7 80%, #f6f8f7 100%);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #878378;
+}
+
+@media only screen and (max-width: 640px) {
+  .Campaign__sweets {
+    padding: 40px;
+    background-size: contain;
+  }
+}
+
+.Campaign__sweets__main {
   display: flex;
-  background-image: url("../../resources/images/campaign/sweets.jpg");
+  align-items: center;
+  flex-direction: column;
+  width: 66%;
+}
+
+@media only screen and (max-width: 640px) {
+  .Campaign__sweets__main {
+    width: 100%;
+  }
+}
+
+.Campaign__sweets__head {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.2rem;
+}
+
+.Campaign__sweets__body {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .Campaign__sweets__body {
+    font-size: 1.2rem;
+  }
+}
+
+.Campaign__sweets__button {
+  padding: 8px 16px;
+  border: 1px solid #878378;
+  color: #878378;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 .u-mt60px {

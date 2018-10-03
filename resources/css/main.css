@@ -1149,6 +1149,24 @@ a:hover {
   }
 }
 
+.Form {
+  margin: auto;
+  max-width: 400px;
+}
+
+.Form__input {
+  display: block;
+  margin-bottom: 40px;
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #474747;
+}
+
+.Form__button {
+  display: block;
+  margin: auto;
+}
+
 .IndexPage__foodMenu, .IndexPage__drinkMenu {
   background-position: center center;
   background-size: cover;
@@ -1203,6 +1221,7 @@ a:hover {
 .Campaign__sweets__body {
   margin-bottom: 20px;
   font-size: 1.4rem;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 640px) {

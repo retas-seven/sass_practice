@@ -37,6 +37,8 @@
         &__body {
             margin-bottom: $space-unit;
             font-size: 1.4rem;
+          //  line-height: 2.5rem;
+            letter-spacing: 1px;
             @include mq-sp {
                 font-size: 1.2rem;
             }

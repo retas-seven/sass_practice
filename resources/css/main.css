@@ -565,6 +565,40 @@ a:hover {
   color: #878378;
 }
 
+.l-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 1180px;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+@media only screen and (max-width: 640px) {
+  .l-content {
+    flex-direction: column;
+  }
+}
+
+.l-main {
+  flex: 0 2 auto;
+  margin: 0 20px;
+  max-width: 865px;
+}
+
+.l-sub {
+  flex: 0 0 275px;
+  margin: 0 20px;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+  .l-sub {
+    flex: 1 1 100%;
+    margin: 15px;
+  }
+}
+
 .l-column {
   flex: 0 1 1180px;
   max-width: 1180px;
@@ -679,7 +713,7 @@ a:hover {
   padding-bottom: 40px;
   color: #474747;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 1;
   font-family: "Lato";
   font-weight: 300;
@@ -707,9 +741,27 @@ a:hover {
   color: #474747;
   text-transform: uppercase;
   font-weight: lighter;
-  font-size: 26px;
+  font-size: 2.6rem;
   font-family: "Lato";
   font-weight: 300;
+}
+
+.articleLabelL {
+  padding: 0 0 20px;
+  font-weight: normal;
+  font-size: 3.4rem;
+}
+
+.articleLabelM {
+  padding: 40px 0 20px;
+  font-weight: normal;
+  font-size: 2.6rem;
+}
+
+.articleLabelS {
+  padding: 40px 0 20px;
+  font-weight: normal;
+  font-size: 2.6rem;
 }
 
 .NewsList {
@@ -1236,6 +1288,37 @@ a:hover {
   color: #878378;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.Article__text {
+  margin-bottom: 40px;
+}
+
+.Article__image {
+  margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.textList {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.textList__item {
+  list-style: disc;
+}
+
+.ThumbnailItem {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.ThumbnailItem__thumb {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
 }
 
 .u-mt60px {
